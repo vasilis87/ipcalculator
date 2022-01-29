@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/runner/work/ipcalculator/ipcalculator/src")
+#sys.path.append("/home/runner/work/ipcalculator/ipcalculator/src")
 
 import pytest
 from calculator.ipcalc import ipcalculator
