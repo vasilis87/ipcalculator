@@ -2,7 +2,6 @@
 
 
 import pytest
-from calculator.ipcalc import ipcalculator
 
 
 def ipcalculator(prefix: str):
