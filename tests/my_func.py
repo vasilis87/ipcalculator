@@ -1,6 +1,7 @@
 import sys
-sys.path.append("../src")
+sys.path.append("/home")
 print(sys.path)
+import calculator
 
 
 
