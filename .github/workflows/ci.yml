@@ -25,4 +25,4 @@ jobs:
           export PYTHONPATH=/home
           echo $PYTHONPATH
       - name: Run tests with pytest
-        run: pwd
+        run: pytest
