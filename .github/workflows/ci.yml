@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements.txt
       - name: Add home to PYTHONPATH
         run: |
-          echo "PYTHONPATH=/home/runner/work/ipcalculator/ipcalculator/src" >> $GITHUB_ENV
+          echo "PYTHONPATH=/home" >> $GITHUB_ENV
 
       - name: Run tests with pytest
         run: pytest
