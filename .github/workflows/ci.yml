@@ -24,6 +24,7 @@ jobs:
         run: |
           echo "PYTHONPATH=/home/runner/work/ipcalculator/ipcalculator/src" >> $GITHUB_ENV
 
+
       - name: Run tests with pytest
         run: pytest
 
