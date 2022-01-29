@@ -27,5 +27,5 @@ jobs:
       - name: Run tests with pytest
         run: |
           cd ./tests/
-          dir
+          python my_func.py
           
