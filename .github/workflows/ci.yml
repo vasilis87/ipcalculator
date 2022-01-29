@@ -26,5 +26,5 @@ jobs:
           echo $PYTHONPATH
       - name: Run tests with pytest
         run: |
-          cd /tests/
           dir
+          
