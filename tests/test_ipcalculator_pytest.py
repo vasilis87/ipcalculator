@@ -1,5 +1,6 @@
 
-
+import sys
+sys.path.append('')
 
 import pytest
 from calculator.ipcalc import ipcalculator
