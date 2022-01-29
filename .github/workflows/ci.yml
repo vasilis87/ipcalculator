@@ -25,4 +25,6 @@ jobs:
           export PYTHONPATH=$(pwd)/src
           echo $PYTHONPATH
       - name: Run tests with pytest
-        run: python /tests/myfunc.py
+        run: |
+          cd /tests/
+          dir
