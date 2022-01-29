@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements.txt
       - name: Add home to PYTHONPATH
         run: |
-          export PYTHONPATH="${PYTHONPATH}:/home
+          export PYTHONPATH=/home
           echo $PYTHONPATH
       - name: Run tests with pytest
         run: pwd
