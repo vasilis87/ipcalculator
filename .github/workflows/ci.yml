@@ -20,5 +20,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      -name: Add home to PYTHONPATH
+        run: |
+          export PYTHONPATH="${PYTHONPATH}:/home
+          echo $PYTHONPATH
       - name: Run tests with pytest
         run: pwd
