@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-setup.py
-xx/IP_CALCULATOR.egg-info/PKG-INFO
-xx/IP_CALCULATOR.egg-info/SOURCES.txt
-xx/IP_CALCULATOR.egg-info/dependency_links.txt
-xx/IP_CALCULATOR.egg-info/top_level.txt

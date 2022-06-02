@@ -47,8 +47,6 @@ def ipcalculator(prefix: str):
 
 
 
-
 if __name__ == '__main__':
-    print(ipcalculator('10.255.5.5/30'))
-    a, b, c, d, e, f = ipcalculator('10.2.56.5/19')
-    pass
+    print(ipcalculator('10.12.19.65/30'))
+
